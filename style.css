@@ -1,0 +1,40 @@
+.wrapper {
+    height: 110vh;
+}
+body {
+    background-color: aqua;
+    color: green;
+}
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bg1 {
+    background-image: url(img/bergwereld-3.webp);
+}
+#bg2 {
+    background-image: url(img/kleur-zee.jpg);
+}
+#bg3 {
+     background-image: url(img/shutterstock-562338241.jpg);
+}
+#bg4 { 
+    background-image: url(img/zee-algemeen.jpg);
+}
+
+
+.parallax {
+    
+height: 100vh;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
